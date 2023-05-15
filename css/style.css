@@ -1,6 +1,9 @@
 /* Created by: Mr. Coxall
 * Created on: Sep 2020
 * This file contains the CSS for index.html
+/* Created by: Dominik Armatys
+* Created on: may 2023
+* This file contains the CSS for index.html
 */
 
 .mdl-layout__header-row {
@@ -37,7 +40,7 @@
 }
 
 body {
-  background-color: rgb(60 175 123);
+  background-color: rgb(232, 197, 249);
 }
 
 img {

@@ -4,17 +4,20 @@
 // Created on: june 2023
 // This file contains the JS functions for index.html
 
+const randomNumberPos = Math.floor(Math.random() * 6) + 1
+const randomNumberNeg = Math.floor(Math.random() * -6) + 1
+
 /**
- * This function displays the slider value.
+ * This function displays positive and negative number
  */
 function myButtonClicked() {
-  alwaysOnButtonChecked = document.getElementById('on-check').checked
+  buttonOnChecked = document.getElementById("positive.").checked
 
-  if (alwaysOnButtonChecked == true) {
+  if (buttonOnChecked == true) {
     document.getElementById("radio-button-value").innerHTML =
-    "<p>Value is: On</p>"
+      "Your number is: " + randomNumberPos + "."
   } else {
     document.getElementById("radio-button-value").innerHTML =
-    "<p>Value is: Off</p>"
+      "Your number is: " + randomNumberNeg + "."
   }
 }
